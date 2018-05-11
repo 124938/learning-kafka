@@ -9,7 +9,6 @@
   * Building real-time streaming data pipelines that reliably get data between systems or applications
   * Building real-time streaming applications that transform or react to the streams of data
 
-
 ## Architecture
 
 ### Few Important Concepts
@@ -650,3 +649,15 @@ total 8
 -rw-rw-r-- 1 asus asus        8 May 11 17:48 leader-epoch-checkpoint
 -rw-rw-r-- 1 asus asus      506 May 11 17:51 00000000000000000000.log
 ~~~
+
+## Typical Use Cases
+
+* **Messaging** - Kafka works well as a replacement for a more traditional message broker 
+
+* **Website Activity Tracking** - Activity tracking is often very high volume as many activity messages are generated for each user page view
+
+* **Metrics** - Kafka is often used for operational monitoring data
+
+* **Log Aggregation** - Many people use Kafka as a replacement for a log aggregation solution (Use of flume & kafka complements each other for this use case)
+
+* **Stream Processing** - Apart from Kafka Streams, alternative open source stream processing tools include Apache Storm, Apache Samza, Apache Spark, Apache Flink etc.
