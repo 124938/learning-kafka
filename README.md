@@ -21,7 +21,7 @@
   ![Alt text](_images/_1_kafka_api.png?raw=true "Kafka API")
 
 ### Communication
-* In Kafka the communication between clients and kafka cluster is done with a simple, high-performance, language agnostic TCP protocol.
+* In Kafka the communication between client and kafka cluster is done with a simple, high-performance, language agnostic TCP protocol.
 * Kafka client provides supports for many languages like java, c++, python, ruby, many more..
 
 
