@@ -145,7 +145,7 @@ asus@asus-GL553VD:~/tech_soft/kafka_2.11-1.1.0$ bin/zookeeper-server-start.sh co
 [2018-05-11 17:30:13,838] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
 ~~~
 
-* Start Kafka server (Refer below c)
+* Start Kafka server
 
 ~~~
 asus@asus-GL553VD:~/tech_soft/kafka_2.11-1.1.0$ bin/kafka-server-start.sh config/server.properties
@@ -650,7 +650,22 @@ total 8
 -rw-rw-r-- 1 asus asus      506 May 11 17:51 00000000000000000000.log
 ~~~
 
-## Typical Use Cases
+## Kafka Topic
+
+### Anatomy of a topic
+
+* Topic is nothing but a file which captures the stream of messages
+* Topic can be partitioned for scalability purpose
+* Each topic partition can be replicated for reliability purpose
+* Publishers publish messages to the topic
+* Consumers subscribe to the topic
+* Offset is nothing but the position of the last message consumer have read from each partition of the topic
+* Consumer Group can be created to facilitate multiple consumers read from same topic in co-ordinated fasion (offset is tracked at group level) 
+
+  ![Alt text](_images/_2_kafka_topic_anatomy.png?raw=true "Kafka Topic Anatomy")
+
+
+## Typical Use Cases of Kafka
 
 * **Messaging** - Kafka works well as a replacement for a more traditional message broker 
 
