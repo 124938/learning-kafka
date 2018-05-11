@@ -665,7 +665,7 @@ total 8
   ![Alt text](_images/_2_kafka_topic_anatomy.png?raw=true "Kafka Topic Anatomy")
 
 
-## Typical Use Cases of Kafka
+## Typical Use Cases
 
 * **Messaging** - Kafka works well as a replacement for a more traditional message broker 
 
