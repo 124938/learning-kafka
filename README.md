@@ -70,9 +70,13 @@ drwxr-xr-x 2 asus asus  4096 Mar 24 04:24 config
 drwxr-xr-x 3 asus asus  4096 Mar 24 04:24 bin
 drwxr-xr-x 2 asus asus  4096 Mar 24 04:24 site-docs
 drwxr-xr-x 2 asus asus  4096 May 11 17:13 libs
+~~~
 
+~~~
 asus@asus-GL553VD:~/tech_soft/kafka_2.11-1.1.0$ cd bin/
+~~~
 
+~~~
 asus@asus-GL553VD:~/tech_soft/kafka_2.11-1.1.0/bin$ ls -ltr
 total 132
 -rwxr-xr-x 1 asus asus  968 Mar 24 04:21 zookeeper-shell.sh
