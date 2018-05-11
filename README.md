@@ -10,12 +10,6 @@
   * Building real-time streaming applications that transform or react to the streams of data
 
 
-## Important Concepts
-* Kafka is run as a cluster on one or more servers.
-* The Kafka cluster stores streams of records/messages in categories called topics.
-* Each record consists of a key, a value and a timestamp.
-
-
 ## Architecture
 
 ### Core APIs
@@ -29,3 +23,9 @@
 ### Communication
 * In Kafka the communication between clients and kafka cluster is done with a simple, high-performance, language agnostic TCP protocol.
 * Kafka client provides supports for many languages like java, c++, python, ruby, many more..
+
+
+## Important Concepts
+* Kafka is run as a cluster on one or more servers.
+* The Kafka cluster stores streams of records/messages in categories called topics.
+* Each record consists of a key, a value and a timestamp.
