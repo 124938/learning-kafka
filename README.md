@@ -13,10 +13,10 @@
 ## Architecture
 
 ### Core APIs
-* The Producer API - It allows an application to publish a stream records to one of more Kafka topics.
-* The Consumer API - It allows an application to subscribe to one or more topics and process the stream of records.
-* The Stream API - It allows an application to act as a stream processor, consuming an input stream from one or more topics and producing an output stream to one of more topics, effectively transforming the input streams to output streams.
-* The Connector API - It allows building and running reusable producers or consumers that connect Kafka topics to existing applications or data systems.
+* **The Producer API** - It allows an application to publish a stream records to one of more Kafka topics.
+* **The Consumer API** - It allows an application to subscribe to one or more topics and process the stream of records.
+* **The Stream API** - It allows an application to act as a stream processor, consuming an input stream from one or more topics and producing an output stream to one of more topics, effectively transforming the input streams to output streams.
+* **The Connector API** - It allows building and running reusable producers or consumers that connect Kafka topics to existing applications or data systems.
 
   ![Alt text](_images/_1_kafka_api.png?raw=true "Kafka API")
 
