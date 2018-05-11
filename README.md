@@ -12,6 +12,11 @@
 
 ## Architecture
 
+### Few Important Concepts
+* Kafka is run as a cluster on one or more servers.
+* The Kafka cluster stores streams of records/messages in categories called topics.
+* Each record consists of a key, a value and a timestamp.
+
 ### Core APIs
 * **The Producer API** - It allows an application to publish a stream records to one of more Kafka topics.
 * **The Consumer API** - It allows an application to subscribe to one or more topics and process the stream of records.
@@ -25,7 +30,3 @@
 * Kafka client provides supports for many languages like java, c++, python, ruby, many more..
 
 
-## Important Concepts
-* Kafka is run as a cluster on one or more servers.
-* The Kafka cluster stores streams of records/messages in categories called topics.
-* Each record consists of a key, a value and a timestamp.
