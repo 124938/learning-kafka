@@ -1,9 +1,9 @@
 ## Overview
 
 * Kafka is a distributed streaming platform, which has following capabilities:
-  * Publish & Subscribe : It let's you publish and subscribe to streams of records/messages i.e. it allows to read and write stream of data like a messaging system.
-  * Process : It let's you write scalable stream processing application that react to events in a real time.
-  * Store : It let's you store streams of data safely in a distributed, replicated, fault-tolerant cluster.
+  * **Publish & Subscribe** : It let's you publish and subscribe to streams of records/messages i.e. it allows to read and write stream of data like a messaging system.
+  * **Process** : It let's you write scalable stream processing application that react to events in a real time.
+  * **Store** : It let's you store streams of data safely in a distributed, replicated, fault-tolerant cluster.
 
 * Kafka is generally used for two broad classes of applications:
   * Building real-time streaming data pipelines that reliably get data between systems or applications
